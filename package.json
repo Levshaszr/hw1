@@ -1,0 +1,38 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "npx nodemon ./app.ts",
+    "add": "run-func app.js add",
+    "update": "run-func app.js update",
+    "open": "run-func app.js open",
+    "del": "run-func app.js del",
+    "rename": "run-func app.js rename",
+    "readdir": "run-func app.js readdir",
+    "delall": "run-func app.js delall",
+    "help": "run-func app.js help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levshaszr/hw1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Levshaszr/hw1/issues"
+  },
+  "homepage": "https://github.com/Levshaszr/hw1#readme",
+  "dependencies": {
+    "express-handlebars": "^6.0.6",
+    "run-func": "^3.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "ts-node-dev": "^2.0.0"
+  }
+}
